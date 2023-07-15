@@ -44,27 +44,26 @@ btn.onclick = function () {
                     b.textContent = "You Are UNDERWEIGHT"
                     result.appendChild(b)
                 }
-                if (calcu >= 18.5 && calcu <=24.9) {
+                if (calcu >= 18.5 && calcu <= 25) {
                     let b = document.createElement("b")
-                    b.textContent = "You Are Normal"
+                    b.textContent = "You Are NORMAL"
                     result.appendChild(b)
                 }
-                if (calcu >= 25 && calcu <=29.9) {
+                if (calcu > 25 && calcu <= 30) {
                     let b = document.createElement("b")
                     b.textContent = "You Are OVERWEIGHT"
                     result.appendChild(b)
                 }
-                if (calcu >= 30 && calcu <=34.9) {
+                if (calcu > 30 && calcu <= 35) {
                     let b = document.createElement("b")
                     b.textContent = "You Are OBESE"
                     result.appendChild(b)
                 }
-                if (calcu >= 35) {
+                if (calcu > 35) {
                     let b = document.createElement("b")
                     b.textContent = "You Are EXTREMELY OBESE"
                     result.appendChild(b)
                 }
-                
             }
         
     
@@ -75,29 +74,29 @@ btn.onclick = function () {
             bmi.textContent = `Your BMI Weight :${calcu}`
             result.appendChild(bmi)
             if (calcu < 18.5) {
-                let b = document.createElement("b")
-                b.textContent = "You Are UNDERWEIGHT"
-                result.appendChild(b)
-            }
-            if (calcu >= 18.5 && calcu <=24.9) {
-                let b = document.createElement("b")
-                b.textContent = "You Are Normal"
-                result.appendChild(b)
-            }
-            if (calcu >= 25 && calcu <=29.9) {
-                let b = document.createElement("b")
-                b.textContent = "You Are OVERWEIGHT"
-                result.appendChild(b)
-            }
-            if (calcu >= 30 && calcu <=34.9) {
-                let b = document.createElement("b")
-                b.textContent = "You Are OBESE"
-                result.appendChild(b)
-            }
-            if (calcu >= 35) {
-                let b = document.createElement("b")
-                b.textContent = "You Are EXTREMELY OBESE"
-                result.appendChild(b)
-            }
+                    let b = document.createElement("b")
+                    b.textContent = "You Are UNDERWEIGHT"
+                    result.appendChild(b)
+                }
+                if (calcu >= 18.5 && calcu <= 25) {
+                    let b = document.createElement("b")
+                    b.textContent = "You Are NORMAL"
+                    result.appendChild(b)
+                }
+                if (calcu > 25 && calcu <= 30) {
+                    let b = document.createElement("b")
+                    b.textContent = "You Are OVERWEIGHT"
+                    result.appendChild(b)
+                }
+                if (calcu > 30 && calcu <= 35) {
+                    let b = document.createElement("b")
+                    b.textContent = "You Are OBESE"
+                    result.appendChild(b)
+                }
+                if (calcu > 35) {
+                    let b = document.createElement("b")
+                    b.textContent = "You Are EXTREMELY OBESE"
+                    result.appendChild(b)
+                }  
         }  
     }
