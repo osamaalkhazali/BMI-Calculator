@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Tahoma, Arial;
+  }
+
+  .container {
+    max-width: 500px;
+    padding: 30px;
+    background-color: orangered;
+    margin: 50px auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.329);
+  }
+
+  .container h1 {
+    color: #333;
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    margin: 15px;
+  }
+
+  span {
+    color: teal !important;
+  }
+
+  .unit {
+    padding: 15px;
+  }
+
+  .unit label {
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  .unit select {
+    background-color: #333;
+    color : white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+
+   
+  }
+
+  .unit option {
+    background-color: gray;
+    color : white;
+    font-size: 20px;
+    border-radius: 10px;
+    
+  }
+
+
+  #height, #weight {
+    background-color: white;
+    padding: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 15px;
+  }
+
+  .calc label {
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+  button {
+    background-color: #333;
+    color : white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+  }
+
+.calc {
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.guide {
+    max-width: 600px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+width:  100%;
+}
+
+.result {
+    width: 80%;
+    background-color: teal;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}

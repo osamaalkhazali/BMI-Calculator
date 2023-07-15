@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span>BMI</span> Calculator</h1>
+
+        <div class="unit">
+            <label for="unit">Choose Unit:</label>
+            <select name="unit" id="unit">
+                <option value="kg">Kg / m</option>
+                <option value="lb">Lb / inch</option>
+            </select>
+        </div>
+
+        <div class="calc">
+            <label for="height">Height:</label>
+            <input type="number" id="height">
+            <label for="weight">Weight:</label>
+            <input type="number" id="weight">
+            <button>Calculate</button>
+        </div>
+
+        <div class="result">Your Result will be HERE</div>
+        
+    </div>
+    
+    <div class="guide">
+        <img src="https://www.cdc.gov/healthyweight/images/assessing/bmi-adult-fb-600x315.jpg?_=07167" alt="">
+    </div>
+
+<script src="bmi.js"></script>
+</body>
+</html>
